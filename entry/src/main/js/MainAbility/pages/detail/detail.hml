@@ -1,0 +1,9 @@
+<div class="container" onswipe="onSwipe">
+    <text class="title">Detail</text>
+    <text class="row">Depth: {{ depth }}</text>
+    <text class="row">Message: {{ message }}</text>
+    <text class="saved" if="{{ returned }}">Returned: {{ returned }}</text>
+    <input class="btn" type="button" value="Open Editor" onclick="openEditor"></input>
+    <input class="btn btn-replace" type="button" value="Replace" onclick="replaceSelf"></input>
+    <input class="btn btn-back" type="button" value="Back" onclick="goBack"></input>
+</div>

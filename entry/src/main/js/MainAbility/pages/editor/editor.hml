@@ -1,0 +1,7 @@
+<div class="container" onswipe="onSwipe">
+    <text class="title">Editor</text>
+    <text class="row">Depth: {{ depth }}</text>
+    <text class="row">Message: {{ message }}</text>
+    <input class="btn btn-save" type="button" value="Save and return" onclick="save"></input>
+    <input class="btn btn-cancel" type="button" value="Cancel" onclick="cancel"></input>
+</div>

@@ -1,0 +1,39 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+    background-color: #1a1226;
+}
+
+.title {
+    font-size: 30px;
+    color: #b085f5;
+    text-align: center;
+    width: 380px;
+    height: 44px;
+    margin-bottom: 6px;
+}
+
+.row {
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+    height: 32px;
+}
+
+.btn {
+    width: 250px;
+    height: 56px;
+    margin-top: 12px;
+    border-radius: 28px;
+    background-color: #7e57c2;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.btn-back {
+    background-color: #6b6b6b;
+}

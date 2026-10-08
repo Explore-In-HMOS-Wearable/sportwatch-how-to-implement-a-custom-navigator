@@ -1,0 +1,8 @@
+<div class="container" onswipe="onSwipe">
+    <text class="title">Load Test</text>
+    <text class="row">Depth: {{ depth }}</text>
+    <text class="row">n: {{ n }}</text>
+    <text class="row">stack: {{ stackLen }} chars</text>
+    <input class="btn" type="button" value="Push another (+1)" onclick="pushAnother"></input>
+    <input class="btn btn-back" type="button" value="Back" onclick="goBack"></input>
+</div>

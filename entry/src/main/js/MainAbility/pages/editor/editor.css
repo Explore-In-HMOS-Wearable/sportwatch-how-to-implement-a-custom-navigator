@@ -1,0 +1,43 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 454px;
+    height: 454px;
+    background-color: #261220;
+}
+
+.title {
+    font-size: 30px;
+    color: #e08ac0;
+    text-align: center;
+    width: 380px;
+    height: 44px;
+    margin-bottom: 6px;
+}
+
+.row {
+    font-size: 22px;
+    color: #c9b3c0;
+    text-align: center;
+    width: 400px;
+    height: 32px;
+}
+
+.btn {
+    width: 250px;
+    height: 56px;
+    margin-top: 12px;
+    border-radius: 28px;
+    background-color: #a0448c;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.btn-save {
+    background-color: #2e8b57;
+}
+
+.btn-cancel {
+    background-color: #6b6b6b;
+}

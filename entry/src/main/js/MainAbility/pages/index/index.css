@@ -1,0 +1,38 @@
+.container {
+  flex-direction: column;
+  width: 454px;
+  height: 454px;
+  justify-content: center;
+  align-items: center;
+  background-color: #12243a;
+}
+
+.title {
+  width: 380px;
+  height: 44px;
+  font-size: 32px;
+  color: #4db6ff;
+  text-align: center;
+}
+
+.info {
+  width: 380px;
+  height: 34px;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn {
+  width: 250px;
+  height: 62px;
+  margin-top: 16px;
+  border-radius: 31px;
+  background-color: #1f6feb;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.btn-test {
+  background-color: #7e57c2;
+}

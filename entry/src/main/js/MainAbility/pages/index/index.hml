@@ -1,0 +1,6 @@
+<div class="container">
+    <text class="title">Home</text>
+    <text class="info">Depth: {{ depth }}</text>
+    <input class="btn" type="button" value="Open Detail" onclick="openDetail"></input>
+    <input class="btn btn-test" type="button" value="Load Test" onclick="openLoadTest"></input>
+</div>
